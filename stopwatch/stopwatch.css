@@ -1,0 +1,37 @@
+.stopwatch {
+    text-align: center;
+    background-color: brown;
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    color: white;
+  }
+  #lapList {
+    margin-top: 10px; /* Add some margin to separate it from other elements */
+    padding: 0;
+    list-style-type: none; /* Remove default list styles */
+  }
+  
+  /* Style for individual lap items */
+  #lapList li {
+    padding: 5px;
+    border: 1px solid hwb(0 5% 95%);
+    background-color: hsl(0, 30%, 5%);
+    margin-bottom: 5px;
+  }  
